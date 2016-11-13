@@ -3,17 +3,17 @@
 
  Options:
 
- * Encode :+1:
- * Decode :+1:
+ * Encode 
+ * Decode 
 
  
 
 ###Example:
 ```vbnet
-Dim TextEnc As String = Morse.Morse(word:="EXAMPLE MORSE ENCODE DECODE FUNCTION",
+Dim TextEnc As String = MorseEncDec.Morse(word:="EXAMPLE MORSE ENCODE DECODE FUNCTION",
                                     mode:=Morse.Mode.Encode)
 
-Dim TextDec As String = Morse.Morse(word:=". -..- .- -- .--. .-.. .  -- --- .-. ... .  . -. -.-. --- -.. .  -.. . -.-. --- -.. .  ..-. ..- -. -.-. - .. --- -.",
+Dim TextDec As String = MorseEncDec.Morse(word:=". -..- .- -- .--. .-.. .  -- --- .-. ... .  . -. -.-. --- -.. .  -.. . -.-. --- -.. .  ..-. ..- -. -.-. - .. --- -.",
                                     mode:=Morse.Mode.Decode)
 
 ```
